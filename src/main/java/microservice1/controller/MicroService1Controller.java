@@ -20,6 +20,6 @@ public class MicroService1Controller {
 
     @RequestMapping("/")
     String defaultResponse() {
-        return "Hello World, Spring Boot!";
+        return "Hello World, Response from MicroService1 !!";
     }
 }
